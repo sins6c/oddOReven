@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid rgba(255, 255, 255, 0.367);
+    border-radius: 50px 1px 50px 1px;
+    background-color: rgba(192, 129, 255, 0.562);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: darkblue;
+}
+
+#name {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.score {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+#main {
+    display: flex;
+    justify-content: space-around;
+}
+
+#scores {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+#res {
+    margin-top: 20px;
+    background-color: rgb(73, 123, 197);
+    color: black;
+    padding: 5px;
+    border-radius: 50px;
+
+}
+
+#btn {
+    margin-top: 20px;
+}
+
+input[type="button"] {
+    border: 2px solid rgb(219, 131, 141);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(219, 131, 141);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    justify-content: space-evenly;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(213, 117, 129);
+    color: black;
+}
